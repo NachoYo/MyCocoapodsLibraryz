@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MyCocoapodsLibraryz_Example' do
+  pod 'MyCocoapodsLibraryz', :path => '../'
+
+  target 'MyCocoapodsLibraryz_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
