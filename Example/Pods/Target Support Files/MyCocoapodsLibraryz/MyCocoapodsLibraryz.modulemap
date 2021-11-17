@@ -1,0 +1,6 @@
+framework module MyCocoapodsLibraryz {
+  umbrella header "MyCocoapodsLibraryz-umbrella.h"
+
+  export *
+  module * { export * }
+}
